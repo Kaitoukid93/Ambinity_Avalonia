@@ -22,7 +22,10 @@ build_property.EnableGeneratedComInterfaceComImportInterop =
 [D:/AmbinityAvalonia/Ambinity_Avalonia/Ambinity/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[D:/AmbinityAvalonia/Ambinity_Avalonia/Ambinity/Views/DashboardView.axaml]
+[D:/AmbinityAvalonia/Ambinity_Avalonia/Ambinity/Views/Dashboard/DashboardDeviceView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[D:/AmbinityAvalonia/Ambinity_Avalonia/Ambinity/Views/Dashboard/DashboardView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [D:/AmbinityAvalonia/Ambinity_Avalonia/Ambinity/Views/MainWindow.axaml]

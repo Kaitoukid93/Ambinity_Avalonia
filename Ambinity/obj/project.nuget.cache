@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rQ0K+W/jfILEyQBhgb4tRSY23KreGYBoTg2vjToeScPEB1XOMxTCGkKpzOZX1lcI3uozuqYshSeQVeBqS5+mxQ==",
+  "dgSpecHash": "cHjaVZsDYtaOrWz+tc9jN7b8KaXrWvfSDtXxJmApgq1la5oog4KwNcpdpBw5RIsJLo+pWK3ceCUM6B5P5/KPbw==",
   "success": true,
   "projectFilePath": "D:\\AmbinityAvalonia\\Ambinity_Avalonia\\Ambinity\\Ambinity.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,14 @@
     "C:\\Users\\zOe\\.nuget\\packages\\avalonia.themes.simple\\11.0.10\\avalonia.themes.simple.11.0.10.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\avalonia.win32\\11.0.10\\avalonia.win32.11.0.10.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\avalonia.x11\\11.0.10\\avalonia.x11.11.0.10.nupkg.sha512",
+    "C:\\Users\\zOe\\.nuget\\packages\\avalonia.xaml.behaviors\\11.1.0-beta1\\avalonia.xaml.behaviors.11.1.0-beta1.nupkg.sha512",
+    "C:\\Users\\zOe\\.nuget\\packages\\avalonia.xaml.interactions\\11.1.0-beta1\\avalonia.xaml.interactions.11.1.0-beta1.nupkg.sha512",
+    "C:\\Users\\zOe\\.nuget\\packages\\avalonia.xaml.interactions.custom\\11.1.0-beta1\\avalonia.xaml.interactions.custom.11.1.0-beta1.nupkg.sha512",
+    "C:\\Users\\zOe\\.nuget\\packages\\avalonia.xaml.interactions.draganddrop\\11.1.0-beta1\\avalonia.xaml.interactions.draganddrop.11.1.0-beta1.nupkg.sha512",
+    "C:\\Users\\zOe\\.nuget\\packages\\avalonia.xaml.interactions.draggable\\11.1.0-beta1\\avalonia.xaml.interactions.draggable.11.1.0-beta1.nupkg.sha512",
+    "C:\\Users\\zOe\\.nuget\\packages\\avalonia.xaml.interactions.events\\11.1.0-beta1\\avalonia.xaml.interactions.events.11.1.0-beta1.nupkg.sha512",
+    "C:\\Users\\zOe\\.nuget\\packages\\avalonia.xaml.interactions.responsive\\11.1.0-beta1\\avalonia.xaml.interactions.responsive.11.1.0-beta1.nupkg.sha512",
+    "C:\\Users\\zOe\\.nuget\\packages\\avalonia.xaml.interactivity\\11.1.0-beta1\\avalonia.xaml.interactivity.11.1.0-beta1.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\dynamicdata\\7.9.5\\dynamicdata.7.9.5.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\fluentavaloniaui\\2.1.0-preview5\\fluentavaloniaui.2.1.0-preview5.nupkg.sha512",

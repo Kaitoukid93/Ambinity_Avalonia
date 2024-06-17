@@ -1,9 +1,14 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Windows.Input;
+using Ambinity.Models;
+using Ambinity.ViewModels;
+using Ambinity.Views.Dashboard;
 using AmbinityCore.Models;
 using CommunityToolkit.Mvvm.Input;
 
-namespace Ambinity.ViewModels
+namespace Ambinity.Views
 {
     public partial class MainWindowViewModel : ViewModelBase
     {
@@ -11,10 +16,11 @@ namespace Ambinity.ViewModels
         {
             GetAvailableComPorts();
             CommandSetup();
-            CreateDummyDevice();
+            GoHome();
         }
 
         public string Greeting => "Welcome to Avalonia!";
+        public ISelectablePage SelectedPage { get; set; }
         public ObservableCollection<string> AvailableComPorts { get; set; }
 
         private void GetAvailableComPorts()
@@ -32,6 +38,12 @@ namespace Ambinity.ViewModels
             ButtonClickCommand = new RelayCommand(IncreaseCounter);
         }
 
+        private void GoHome()
+        {
+            var vm = new DashboardViewModel();
+            SelectedPage = new DashboardView.DashboardViewPage(new Lazy<DashboardView>());
+            (SelectedPage.Content as DashboardView).DataContext = vm;
+        }
         private void CreateDummyDevice()
         {
             DummyDevice = new Device();

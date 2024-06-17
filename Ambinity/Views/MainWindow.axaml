@@ -1,11 +1,12 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:vm="using:Ambinity.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Ambinity.Views.MainWindow"
-        x:DataType="vm:MainWindowViewModel"
+        x:DataType="views:MainWindowViewModel"
+        xmlns:i="clr-namespace:Avalonia.Interactivity"
+        xmlns:ia="clr-namespace:Avalonia.Xaml.Interactions"
         xmlns:ui="using:FluentAvalonia.UI.Controls"
         xmlns:paz="clr-namespace:Avalonia.Controls.PanAndZoom;assembly=Avalonia.Controls.PanAndZoom"
         xmlns:uip="using:FluentAvalonia.UI.Controls.Primitives"
@@ -15,20 +16,13 @@
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
-        <vm:MainWindowViewModel />
+        <views:MainWindowViewModel />
     </Design.DataContext>
     <Grid RowDefinitions="*,auto">
         <Grid>
-            <Border Background="#2b2b2b" CornerRadius="7" Width="230" Height="270">
-                <Grid RowDefinitions="*,auto,auto">
-                    <TextBlock Margin="10,30,0,0"
-                               Text="{Binding DummyDevice.Name}"
-                               FontSize="20" FontWeight="SemiBold">
-                    </TextBlock>
-                    <TextBlock Grid.Row="1" VerticalAlignment="Top" FontSize="12" FontWeight="SemiLight"></TextBlock>
-
-                </Grid>
-            </Border>
+            <ContentControl Content="{Binding SelectedPage.Content }">
+                
+            </ContentControl>
         </Grid>
     </Grid>
 

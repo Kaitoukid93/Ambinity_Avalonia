@@ -154,3 +154,10 @@ D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Live.Avalonia.dl
 D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\ReactiveUI.dll
 D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Splat.dll
 D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\System.Reactive.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Avalonia.Xaml.Interactions.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Avalonia.Xaml.Interactions.Custom.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Avalonia.Xaml.Interactions.DragAndDrop.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Avalonia.Xaml.Interactions.Draggable.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Avalonia.Xaml.Interactions.Events.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Avalonia.Xaml.Interactions.Responsive.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Avalonia.Xaml.Interactivity.dll

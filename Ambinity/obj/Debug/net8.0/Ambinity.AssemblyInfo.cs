@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ambinity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f39c15fb5eb603d1937b3f8e9f956161d43aefc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b9f193ce2f1963a7e1b08488441cbd6b03f74ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ambinity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ambinity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
