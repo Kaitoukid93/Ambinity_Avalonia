@@ -1,0 +1,16 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ui="using:FluentAvalonia.UI.Controls"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Ambinity.Views.DashboardView">
+    <Grid>
+        <ui:FAComboBox Width="100" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <ui:FAComboBoxItem>Zoe</ui:FAComboBoxItem>
+            <ui:FAComboBoxItem>Zoe1</ui:FAComboBoxItem>
+            <ui:FAComboBoxItem>Zoe2</ui:FAComboBoxItem>
+            <ui:FAComboBoxItem>Zoe4</ui:FAComboBoxItem>
+        </ui:FAComboBox>
+    </Grid>
+</UserControl>

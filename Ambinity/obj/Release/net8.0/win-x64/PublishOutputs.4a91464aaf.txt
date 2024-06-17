@@ -1,0 +1,5 @@
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Release\net8.0\win-x64\publish\Ambinity.pdb
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Release\net8.0\win-x64\publish\av_libglesv2.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Release\net8.0\win-x64\publish\libHarfBuzzSharp.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Release\net8.0\win-x64\publish\libSkiaSharp.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Release\net8.0\win-x64\publish\Ambinity.exe

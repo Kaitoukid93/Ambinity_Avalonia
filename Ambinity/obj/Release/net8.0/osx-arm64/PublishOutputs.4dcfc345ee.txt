@@ -1,0 +1,6 @@
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Release\net8.0\osx-arm64\publish\Ambinity.pdb
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Release\net8.0\osx-arm64\publish\libAvaloniaNative.dylib
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Release\net8.0\osx-arm64\publish\libHarfBuzzSharp.dylib
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Release\net8.0\osx-arm64\publish\libSystem.IO.Ports.Native.dylib
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Release\net8.0\osx-arm64\publish\libSkiaSharp.dylib
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Release\net8.0\osx-arm64\publish\Ambinity
