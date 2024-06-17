@@ -145,3 +145,12 @@ D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\obj\Debug\net8.0\Ambinity.csproj.
 D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\obj\Debug\net8.0\Ambinity.genruntimeconfig.cache
 D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\obj\Debug\net8.0\ref\Ambinity.dll
 D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Avalonia.Controls.PanAndZoom.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\obj\Debug\net8.0\Ambinity.sourcelink.json
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\AmbinityCore.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\AmbinityCore.pdb
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Avalonia.ReactiveUI.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\DynamicData.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Live.Avalonia.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\ReactiveUI.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Splat.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\System.Reactive.dll

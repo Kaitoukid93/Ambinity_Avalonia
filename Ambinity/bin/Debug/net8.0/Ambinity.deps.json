@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "Ambinity/1.0.0": {
         "dependencies": {
+          "AmbinityCore": "1.0.0",
           "Avalonia": "11.1.0-beta1",
           "Avalonia.Controls.PanAndZoom": "11.0.0.3",
           "Avalonia.Desktop": "11.0.10",
@@ -16,6 +17,7 @@
           "Avalonia.Themes.Fluent": "11.0.10",
           "CommunityToolkit.Mvvm": "8.2.1",
           "FluentAvaloniaUI": "2.1.0-preview5",
+          "Live.Avalonia": "1.4.1",
           "Serilog": "4.0.0",
           "Serilog.Sinks.Console": "6.0.0",
           "Serilog.Sinks.File": "5.0.1-dev-00972",
@@ -201,6 +203,19 @@
           }
         }
       },
+      "Avalonia.ReactiveUI/11.0.0": {
+        "dependencies": {
+          "Avalonia": "11.1.0-beta1",
+          "ReactiveUI": "18.3.1",
+          "System.Reactive": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Avalonia.ReactiveUI.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.0.0"
+          }
+        }
+      },
       "Avalonia.Remote.Protocol/11.1.0-beta1": {
         "runtime": {
           "lib/net8.0/Avalonia.Remote.Protocol.dll": {
@@ -279,6 +294,17 @@
           "lib/net6.0/CommunityToolkit.Mvvm.dll": {
             "assemblyVersion": "8.2.0.0",
             "fileVersion": "8.2.1.1"
+          }
+        }
+      },
+      "DynamicData/7.9.5": {
+        "dependencies": {
+          "System.Reactive": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/DynamicData.dll": {
+            "assemblyVersion": "7.9.0.0",
+            "fileVersion": "7.9.5.54039"
           }
         }
       },
@@ -362,6 +388,19 @@
             "rid": "win-x86",
             "assetType": "native",
             "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Live.Avalonia/1.4.1": {
+        "dependencies": {
+          "Avalonia": "11.1.0-beta1",
+          "Avalonia.ReactiveUI": "11.0.0",
+          "System.Reactive": "6.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Live.Avalonia.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.1.60193"
           }
         }
       },
@@ -613,6 +652,18 @@
       },
       "Microsoft.NETCore.Platforms/2.1.2": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "ReactiveUI/18.3.1": {
+        "dependencies": {
+          "DynamicData": "7.9.5",
+          "Splat": "14.4.1"
+        },
+        "runtime": {
+          "lib/net6.0/ReactiveUI.dll": {
+            "assemblyVersion": "18.3.0.0",
+            "fileVersion": "18.3.1.49589"
+          }
+        }
+      },
       "runtime.android-arm.runtime.native.System.IO.Ports/9.0.0-preview.5.24306.7": {
         "runtimeTargets": {
           "runtimes/android-arm/native/libSystem.IO.Ports.Native.so": {
@@ -875,6 +926,14 @@
           }
         }
       },
+      "Splat/14.4.1": {
+        "runtime": {
+          "lib/net6.0/Splat.dll": {
+            "assemblyVersion": "14.4.0.0",
+            "fileVersion": "14.4.1.53869"
+          }
+        }
+      },
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.2",
@@ -996,6 +1055,14 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Threading": "4.3.0"
+        }
+      },
+      "System.Reactive/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.1"
+          }
         }
       },
       "System.Reflection/4.3.0": {
@@ -1130,6 +1197,11 @@
             "fileVersion": "0.15.0.0"
           }
         }
+      },
+      "AmbinityCore/1.0.0": {
+        "runtime": {
+          "AmbinityCore.dll": {}
+        }
       }
     }
   },
@@ -1216,6 +1288,13 @@
       "path": "avalonia.native/11.0.10",
       "hashPath": "avalonia.native.11.0.10.nupkg.sha512"
     },
+    "Avalonia.ReactiveUI/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0UJaE/ZEMJFo/i5QPu/zfULQy2orayhGbSw7Y8TD+T7SF4Vp7G6FIC7PJaBAuomk12t/nXmifCGOaormLsApqA==",
+      "path": "avalonia.reactiveui/11.0.0",
+      "hashPath": "avalonia.reactiveui.11.0.0.nupkg.sha512"
+    },
     "Avalonia.Remote.Protocol/11.1.0-beta1": {
       "type": "package",
       "serviceable": true,
@@ -1265,6 +1344,13 @@
       "path": "communitytoolkit.mvvm/8.2.1",
       "hashPath": "communitytoolkit.mvvm.8.2.1.nupkg.sha512"
     },
+    "DynamicData/7.9.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xFwVha7o3qUtVYxco5p+7Urcztc/m1gmaEUxOG0i7LNe+vfCfyb0ECAsT2FLm3zOPHb0g8s9qVu5LfPKfRNVng==",
+      "path": "dynamicdata/7.9.5",
+      "hashPath": "dynamicdata.7.9.5.nupkg.sha512"
+    },
     "FluentAvaloniaUI/2.1.0-preview5": {
       "type": "package",
       "serviceable": true,
@@ -1306,6 +1392,13 @@
       "sha512": "sha512-ulEewLMk+dNmbmpy15ny/YusI6JNUWqchF080TV2jgfFBXPXjWm767JleDi/S7hp8eDeEN6GYIIxpvNr5fLvIw==",
       "path": "harfbuzzsharp.nativeassets.win32/7.3.0",
       "hashPath": "harfbuzzsharp.nativeassets.win32.7.3.0.nupkg.sha512"
+    },
+    "Live.Avalonia/1.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3SRibsx+7yZFWW8CODuEJiv1jQFiz9bzSmNU31kDqpXwS5QyUT5Gv4TReMGegL07emriOqCk/pZ28NnM5Bcfig==",
+      "path": "live.avalonia/1.4.1",
+      "hashPath": "live.avalonia.1.4.1.nupkg.sha512"
     },
     "MicroCom.Runtime/0.11.0": {
       "type": "package",
@@ -1369,6 +1462,13 @@
       "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "ReactiveUI/18.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0tclGtjrRPfA2gbjiM7O3DeNmo6/TpDn7CMN6jgzDrbgrnysM7oEzjGEeXbtXaOxH6kEf6RiMKWobZoSgbBXhQ==",
+      "path": "reactiveui/18.3.1",
+      "hashPath": "reactiveui.18.3.1.nupkg.sha512"
     },
     "runtime.android-arm.runtime.native.System.IO.Ports/9.0.0-preview.5.24306.7": {
       "type": "package",
@@ -1545,6 +1645,13 @@
       "path": "skiasharp.nativeassets.win32/2.88.7",
       "hashPath": "skiasharp.nativeassets.win32.2.88.7.nupkg.sha512"
     },
+    "Splat/14.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z1Mncnzm9pNIaIbZ/EWH6x5ESnKsmAvu8HP4StBRw+yhz0lzE7LCbt22TNTPaFrYLYbYCbGQIc/61yuSnpLidg==",
+      "path": "splat/14.4.1",
+      "hashPath": "splat.14.4.1.nupkg.sha512"
+    },
     "System.Collections/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1635,6 +1742,13 @@
       "sha512": "sha512-bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
       "path": "system.objectmodel/4.3.0",
       "hashPath": "system.objectmodel.4.3.0.nupkg.sha512"
+    },
+    "System.Reactive/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "path": "system.reactive/6.0.0",
+      "hashPath": "system.reactive.6.0.0.nupkg.sha512"
     },
     "System.Reflection/4.3.0": {
       "type": "package",
@@ -1775,6 +1889,11 @@
       "sha512": "sha512-QVo/Y39nTYcCKBqrZuwHjXdwaky0yTQPIT3qUTEEK2MZfDtZWrJ2XyZ59zH8LBgB2fL5cWaTuP2pBTpGz/GeDQ==",
       "path": "tmds.dbus.protocol/0.15.0",
       "hashPath": "tmds.dbus.protocol.0.15.0.nupkg.sha512"
+    },
+    "AmbinityCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
