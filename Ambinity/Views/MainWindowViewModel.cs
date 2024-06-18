@@ -1,76 +1,67 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Windows.Input;
 using Ambinity.Models;
+using Ambinity.Stores;
 using Ambinity.ViewModels;
 using Ambinity.Views.Dashboard;
+using Ambinity.Views.DeviceControl;
 using AmbinityCore.Models;
+using CommunityToolkit.Mvvm.DependencyInjection;
 using CommunityToolkit.Mvvm.Input;
 
 namespace Ambinity.Views
 {
     public partial class MainWindowViewModel : ViewModelBase
     {
-        public MainWindowViewModel()
+        #region Construct
+
+        public MainWindowViewModel(NavigationStores navigationStores)
         {
-            GetAvailableComPorts();
+            _navigationStores = navigationStores;
+            _navigationStores.CurrentViewModelChanged += OnCurrentViewModelChanged;
             CommandSetup();
-            GoHome();
         }
 
-        public string Greeting => "Welcome to Avalonia!";
-        public ISelectablePage SelectedPage { get; set; }
-        public ObservableCollection<string> AvailableComPorts { get; set; }
+      
 
-        private void GetAvailableComPorts()
+        #endregion
+        #region Events
+        
+        private void OnCurrentViewModelChanged()
         {
-            AvailableComPorts = new ObservableCollection<string>();
-
-            foreach (var port in System.IO.Ports.SerialPort.GetPortNames())
-            {
-                AvailableComPorts.Add(port);
-            }
+            OnPropertyChanged(nameof(CurrentViewModel));
         }
+
+        #endregion
+
+        #region Properties
+
+        private readonly NavigationStores _navigationStores;
+        public ViewModelBase CurrentViewModel => _navigationStores.CurrentViewModel;
+
+
+        #endregion
+        #region Methods
 
         private void CommandSetup()
         {
-            ButtonClickCommand = new RelayCommand(IncreaseCounter);
         }
+        #endregion
+        #region Command
 
-        private void GoHome()
-        {
-            var vm = new DashboardViewModel();
-            SelectedPage = new DashboardView.DashboardViewPage(new Lazy<DashboardView>());
-            (SelectedPage.Content as DashboardView).DataContext = vm;
-        }
-        private void CreateDummyDevice()
-        {
-            DummyDevice = new Device();
-            DummyDevice.Name = "Ambino Basic";
-            DummyDevice.Description = "USB Lighting Device";
-            DummyDevice.Address = "COM4";
-            DummyDevice.IsTransferActive = false;
-            
-        }
-        private int _counter = 0;
+        
 
-        private void IncreaseCounter()
-        {
-            Counter++;
-        }
+        #endregion
+        
+        #region Events
 
-        public int Counter
-        {
-            get { return _counter; }
-            set
-            {
-                _counter = value;
-                OnPropertyChanged();
-            }
-        }
 
-        public ICommand ButtonClickCommand { get; set; }
-        public Device DummyDevice { get; set; }
+        #endregion
+
+
+        // public INavigationService NavigationService;
     }
 }

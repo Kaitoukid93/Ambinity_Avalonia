@@ -11,19 +11,21 @@
         xmlns:paz="clr-namespace:Avalonia.Controls.PanAndZoom;assembly=Avalonia.Controls.PanAndZoom"
         xmlns:uip="using:FluentAvalonia.UI.Controls.Primitives"
         xmlns:views="clr-namespace:Ambinity.Views"
+        xmlns:dashboard="clr-namespace:Ambinity.Views.Dashboard"
+        xmlns:devicecontrol="clr-namespace:Ambinity.Views.DeviceControl"
         Icon="/Assets/avalonia-logo.ico"
         Title="Ambinity">
-    <Design.DataContext>
-        <!-- This only sets the DataContext for the previewer in an IDE,
-             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
-        <views:MainWindowViewModel />
-    </Design.DataContext>
     <Grid RowDefinitions="*,auto">
-        <Grid>
-            <ContentControl Content="{Binding SelectedPage.Content }">
-                
-            </ContentControl>
-        </Grid>
+        <ContentControl Content="{Binding CurrentViewModel}">
+            <ContentControl.Resources>
+                <DataTemplate x:Key="123" x:DataType="{x:Type dashboard:DashboardViewModel}">
+                    <dashboard:DashboardView></dashboard:DashboardView>
+                </DataTemplate>
+                <DataTemplate x:Key="456" x:DataType="{x:Type devicecontrol:DeviceControlViewModel}">
+                    <devicecontrol:DeviceControlView></devicecontrol:DeviceControlView>
+                </DataTemplate>
+            </ContentControl.Resources>
+        </ContentControl>
     </Grid>
 
 </Window>

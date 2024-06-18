@@ -131,7 +131,7 @@
             },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[8.2.1, )"
+              "version": "[8.2.2, )"
             },
             "FluentAvaloniaUI": {
               "target": "Package",
@@ -140,6 +140,10 @@
             "Live.Avalonia": {
               "target": "Package",
               "version": "[1.4.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0-preview.5.24306.7, )"
             },
             "Serilog": {
               "target": "Package",

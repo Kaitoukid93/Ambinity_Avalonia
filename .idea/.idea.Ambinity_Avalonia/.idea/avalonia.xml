@@ -3,9 +3,11 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="Ambinity/App.axaml" value="Ambinity/Ambinity.csproj" />
         <entry key="Ambinity/Views/Dashboard/DashboardDeviceView.axaml" value="Ambinity/Ambinity.csproj" />
         <entry key="Ambinity/Views/Dashboard/DashboardView.axaml" value="Ambinity/Ambinity.csproj" />
         <entry key="Ambinity/Views/DashboardView.axaml" value="Ambinity/Ambinity.csproj" />
+        <entry key="Ambinity/Views/DeviceControl/DeviceControlView.axaml" value="Ambinity/Ambinity.csproj" />
         <entry key="Ambinity/Views/MainWindow.axaml" value="Ambinity/Ambinity.csproj" />
       </map>
     </option>

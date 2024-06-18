@@ -7,6 +7,7 @@ using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using Avalonia.ReactiveUI;
+using CommunityToolkit.Mvvm.DependencyInjection;
 
 namespace Ambinity.Views
 {

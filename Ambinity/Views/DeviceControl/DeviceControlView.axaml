@@ -1,0 +1,15 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             xmlns:devicecontrol="clr-namespace:Ambinity.Views.DeviceControl"
+             x:DataType="devicecontrol:DeviceControlViewModel"
+             x:Class="Ambinity.Views.DeviceControl.DeviceControlView">
+    <StackPanel>
+        <TextBlock Text="{Binding Device.Name}"></TextBlock> 
+        <TextBlock Text="{Binding Device.Address}"></TextBlock>
+        <Button Content="Back" Command="{Binding BackToDashBoardCommand}"></Button>
+    </StackPanel>
+    
+</UserControl>

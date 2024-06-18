@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cHjaVZsDYtaOrWz+tc9jN7b8KaXrWvfSDtXxJmApgq1la5oog4KwNcpdpBw5RIsJLo+pWK3ceCUM6B5P5/KPbw==",
+  "dgSpecHash": "hoX5oQvDf0dXsgPAN/d5T/3FUNugMjS9RgVIfPtIdOIomfzfBFZqlYvxlSkv/ls1YlZcoLxPN7H6n+d2knRXgg==",
   "success": true,
   "projectFilePath": "D:\\AmbinityAvalonia\\Ambinity_Avalonia\\Ambinity\\Ambinity.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,7 @@
     "C:\\Users\\zOe\\.nuget\\packages\\avalonia.xaml.interactions.events\\11.1.0-beta1\\avalonia.xaml.interactions.events.11.1.0-beta1.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\avalonia.xaml.interactions.responsive\\11.1.0-beta1\\avalonia.xaml.interactions.responsive.11.1.0-beta1.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\avalonia.xaml.interactivity\\11.1.0-beta1\\avalonia.xaml.interactivity.11.1.0-beta1.nupkg.sha512",
-    "C:\\Users\\zOe\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
+    "C:\\Users\\zOe\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\dynamicdata\\7.9.5\\dynamicdata.7.9.5.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\fluentavaloniaui\\2.1.0-preview5\\fluentavaloniaui.2.1.0-preview5.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\harfbuzzsharp\\7.3.0\\harfbuzzsharp.7.3.0.nupkg.sha512",
@@ -46,6 +46,8 @@
     "C:\\Users\\zOe\\.nuget\\packages\\microsoft.codeanalysis.csharp.scripting\\3.8.0\\microsoft.codeanalysis.csharp.scripting.3.8.0.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\3.8.0\\microsoft.codeanalysis.scripting.common.3.8.0.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\zOe\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0-preview.5.24306.7\\microsoft.extensions.dependencyinjection.9.0.0-preview.5.24306.7.nupkg.sha512",
+    "C:\\Users\\zOe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-preview.5.24306.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.5.24306.7.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\reactiveui\\18.3.1\\reactiveui.18.3.1.nupkg.sha512",

@@ -1,12 +1,14 @@
 using System;
+using System.Windows.Input;
 using Ambinity.ViewModels;
 using AmbinityCore.Models;
+using CommunityToolkit.Mvvm.Input;
 
 namespace Ambinity.Views.Dashboard;
 
-public class DashboardDeviceViewModel : ActivatableViewModelBase
+public class DashboardDeviceViewModel : ViewModelBase
 {
-    public event Action DeviceClicked;
+    public event Action<DashboardDeviceViewModel> DeviceClicked;
 
     public DashboardDeviceViewModel()
     {
@@ -22,10 +24,13 @@ public class DashboardDeviceViewModel : ActivatableViewModelBase
 
     private void CommandSetup()
     {
+        DeviceClickedCommand = new RelayCommand(SelectDevice);
     }
 
     public void SelectDevice()
     {
-        DeviceClicked?.Invoke();
+        DeviceClicked?.Invoke(this);
     }
+
+    public ICommand DeviceClickedCommand { get; set; }
 }

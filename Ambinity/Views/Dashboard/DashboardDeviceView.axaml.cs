@@ -18,8 +18,9 @@ public partial class DashboardDeviceView : UserControl
         var vm = this.DataContext as DashboardDeviceViewModel;
         if (vm == null || e.InitialPressMouseButton != MouseButton.Left)
             return;
-
         vm.SelectDevice();
         e.Handled = true;
     }
+
+  
 }

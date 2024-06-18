@@ -3,6 +3,7 @@ using Ambinity.Models;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using CommunityToolkit.Mvvm.DependencyInjection;
 
 namespace Ambinity.Views.Dashboard;
 
@@ -11,6 +12,7 @@ public partial class DashboardView : UserControl
     public DashboardView()
     {
         InitializeComponent();
+        DataContext = Ioc.Default.GetRequiredService<DashboardViewModel>();
     }
     public class DashboardViewPage : ISelectablePage
     {

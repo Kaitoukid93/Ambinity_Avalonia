@@ -28,5 +28,8 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [D:/AmbinityAvalonia/Ambinity_Avalonia/Ambinity/Views/Dashboard/DashboardView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[D:/AmbinityAvalonia/Ambinity_Avalonia/Ambinity/Views/DeviceControl/DeviceControlView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [D:/AmbinityAvalonia/Ambinity_Avalonia/Ambinity/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
