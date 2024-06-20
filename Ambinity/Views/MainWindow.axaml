@@ -13,19 +13,29 @@
         xmlns:views="clr-namespace:Ambinity.Views"
         xmlns:dashboard="clr-namespace:Ambinity.Views.Dashboard"
         xmlns:devicecontrol="clr-namespace:Ambinity.Views.DeviceControl"
+        Background="Transparent"
+        xmlns:nonclientarea="clr-namespace:Ambinity.Views.NonClientArea"
+        TransparencyLevelHint="Mica"
+        ExtendClientAreaToDecorationsHint="True"
         Icon="/Assets/avalonia-logo.ico"
         Title="Ambinity">
-    <Grid RowDefinitions="*,auto">
-        <ContentControl Content="{Binding CurrentViewModel}">
-            <ContentControl.Resources>
-                <DataTemplate x:Key="123" x:DataType="{x:Type dashboard:DashboardViewModel}">
-                    <dashboard:DashboardView></dashboard:DashboardView>
-                </DataTemplate>
-                <DataTemplate x:Key="456" x:DataType="{x:Type devicecontrol:DeviceControlViewModel}">
-                    <devicecontrol:DeviceControlView></devicecontrol:DeviceControlView>
-                </DataTemplate>
-            </ContentControl.Resources>
-        </ContentControl>
-    </Grid>
+    <Panel>
+        <Grid RowDefinitions="Auto,*">
+            <Grid ColumnDefinitions="Auto,Auto,*,*">
+                <nonclientarea:NonClientAreaContent></nonclientarea:NonClientAreaContent>
+            </Grid>
+            <ContentControl Grid.Row="1" Content="{Binding CurrentViewModel}">
+                <ContentControl.Resources>
+                    <DataTemplate x:Key="123" x:DataType="{x:Type dashboard:DashboardViewModel}">
+                        <dashboard:DashboardView></dashboard:DashboardView>
+                    </DataTemplate>
+                    <DataTemplate x:Key="456" x:DataType="{x:Type devicecontrol:DeviceControlViewModel}">
+                        <devicecontrol:DeviceControlView></devicecontrol:DeviceControlView>
+                    </DataTemplate>
+                </ContentControl.Resources>
+            </ContentControl>
+        </Grid>
+    </Panel>
+    
 
 </Window>

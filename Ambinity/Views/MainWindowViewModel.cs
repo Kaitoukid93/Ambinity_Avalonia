@@ -24,9 +24,7 @@ namespace Ambinity.Views
             _navigationStores.CurrentViewModelChanged += OnCurrentViewModelChanged;
             CommandSetup();
         }
-
-      
-
+  
         #endregion
         #region Events
         

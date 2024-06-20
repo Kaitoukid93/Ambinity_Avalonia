@@ -5,11 +5,19 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              xmlns:devicecontrol="clr-namespace:Ambinity.Views.DeviceControl"
              x:DataType="devicecontrol:DeviceControlViewModel"
+             xmlns:ui="using:FluentAvalonia.UI.Controls"
              x:Class="Ambinity.Views.DeviceControl.DeviceControlView">
     <StackPanel>
         <TextBlock Text="{Binding Device.Name}"></TextBlock> 
         <TextBlock Text="{Binding Device.Address}"></TextBlock>
         <Button Content="Back" Command="{Binding BackToDashBoardCommand}"></Button>
+        <ui:FAComboBox IsEditable="False" IsTextSearchEnabled="True">
+            <ui:FAComboBoxItem Content="Item 1" />
+            <ui:FAComboBoxItem Content="Item 2" />
+            <ui:FAComboBoxItem Content="Different Name" />
+            <ui:FAComboBoxItem Content="ComboBoxItem4" />
+            <ui:FAComboBoxItem Content="Item 5" />
+        </ui:FAComboBox>
     </StackPanel>
     
 </UserControl>
