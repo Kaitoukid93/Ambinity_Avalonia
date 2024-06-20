@@ -1,10 +1,10 @@
 using System;
 using System.Windows.Input;
 using Ambinity.ViewModels;
-using AmbinityCore.Models;
+using AmbinityCore.Models.Device;
 using CommunityToolkit.Mvvm.Input;
 
-namespace Ambinity.Views.Dashboard;
+namespace Ambinity.Views.Screens.Dashboard;
 
 public class DashboardDeviceViewModel : ViewModelBase
 {

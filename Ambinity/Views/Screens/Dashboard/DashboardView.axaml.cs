@@ -5,7 +5,7 @@ using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using CommunityToolkit.Mvvm.DependencyInjection;
 
-namespace Ambinity.Views.Dashboard;
+namespace Ambinity.Views.Screens.Dashboard;
 
 public partial class DashboardView : UserControl
 {

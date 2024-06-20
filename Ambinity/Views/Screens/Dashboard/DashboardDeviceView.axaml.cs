@@ -1,11 +1,9 @@
-using System.Collections.Generic;
-using Avalonia;
+using Ambinity.Views.Screens.Dashboard;
 using Avalonia.Controls;
 using Avalonia.Input;
-using Avalonia.Markup.Xaml;
-using Avalonia.ReactiveUI;
 
-namespace Ambinity.Views.Dashboard;
+
+namespace Ambinity.Views.Screens.Dashboard;
 
 public partial class DashboardDeviceView : UserControl
 {
@@ -13,6 +11,7 @@ public partial class DashboardDeviceView : UserControl
     {
         InitializeComponent();
     }
+
     private void InputElement_OnPointerReleased(object? sender, PointerReleasedEventArgs e)
     {
         var vm = this.DataContext as DashboardDeviceViewModel;
@@ -21,6 +20,4 @@ public partial class DashboardDeviceView : UserControl
         vm.SelectDevice();
         e.Handled = true;
     }
-
-  
 }

@@ -10,3 +10,4 @@ D:\AmbinityAvalonia\Ambinity_Avalonia\AmbinityCore\obj\Debug\net8.0\AmbinityCore
 D:\AmbinityAvalonia\Ambinity_Avalonia\AmbinityCore\obj\Debug\net8.0\refint\AmbinityCore.dll
 D:\AmbinityAvalonia\Ambinity_Avalonia\AmbinityCore\obj\Debug\net8.0\AmbinityCore.pdb
 D:\AmbinityAvalonia\Ambinity_Avalonia\AmbinityCore\obj\Debug\net8.0\ref\AmbinityCore.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\AmbinityCore\obj\Debug\net8.0\AmbinityCore.csproj.AssemblyReference.cache

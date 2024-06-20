@@ -1,7 +1,8 @@
 using Ambinity.Stores;
 using Ambinity.Views;
-using Ambinity.Views.Dashboard;
-using Ambinity.Views.DeviceControl;
+using Ambinity.Views.Screens.Dashboard;
+using Ambinity.Views.Screens.DeviceControl;
+using AmbinityCore.DataBase;
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Data.Core;
@@ -20,19 +21,29 @@ namespace Ambinity
             AvaloniaXamlLoader.Load(this);
         }
 
-        public override void OnFrameworkInitializationCompleted()
+        #region Properties
+
+
+        private GeneralSettingsManager _generalSettingsManager;
+        #endregion
+        private void ConfigureIoc()
         {
-            BindingPlugins.DataValidators.RemoveAt(0);
-            var rootFrame = new Frame();
-
-
+            
             Ioc.Default.ConfigureServices(
                 new ServiceCollection()
                     .AddSingleton<MainWindowViewModel>()
                     .AddSingleton<DeviceControlViewModel>()
                     .AddSingleton<DashboardViewModel>()
+                    .AddSingleton<GeneralSettingsManager>()
                     .AddSingleton<NavigationStores>()
                     .BuildServiceProvider());
+        }
+        public override void OnFrameworkInitializationCompleted()
+        {
+            BindingPlugins.DataValidators.RemoveAt(0);
+            ConfigureIoc();
+            // load general settings
+            _generalSettingsManager = Ioc.Default.GetRequiredService<GeneralSettingsManager>();
             var navigationStore = Ioc.Default.GetRequiredService<NavigationStores>();
             navigationStore.CurrentViewModel = Ioc.Default.GetRequiredService<DashboardViewModel>();
             var vm = Ioc.Default.GetRequiredService<MainWindowViewModel>();

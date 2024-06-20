@@ -13,6 +13,7 @@
         <entry key="Ambinity/Views/GeometryCollection.axaml" value="Ambinity/Ambinity.csproj" />
         <entry key="Ambinity/Views/MainWindow.axaml" value="Ambinity/Ambinity.csproj" />
         <entry key="Ambinity/Views/NonClientAreaContent/NonClientAreaContent.axaml" value="Ambinity/Ambinity.csproj" />
+        <entry key="Ambinity/Views/Screens/DeviceControl/DeviceControlView.axaml" value="Ambinity/Ambinity.csproj" />
       </map>
     </option>
   </component>

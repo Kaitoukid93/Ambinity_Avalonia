@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hoX5oQvDf0dXsgPAN/d5T/3FUNugMjS9RgVIfPtIdOIomfzfBFZqlYvxlSkv/ls1YlZcoLxPN7H6n+d2knRXgg==",
+  "dgSpecHash": "dHe9ZIpynzviPm3qYJ6osp8DyBj59x1tlj2rhQib9TEcAGrAw4dYl3U4Wm683zYAUETBZ7EhyP5LNhpFaYlCcg==",
   "success": true,
   "projectFilePath": "D:\\AmbinityAvalonia\\Ambinity_Avalonia\\Ambinity\\Ambinity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zOe\\.nuget\\packages\\avalonia\\11.1.0-beta1\\avalonia.11.1.0-beta1.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2023020321\\avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",
+    "C:\\Users\\zOe\\.nuget\\packages\\avalonia.avaloniaedit\\11.0.6\\avalonia.avaloniaedit.11.0.6.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\avalonia.buildservices\\0.0.29\\avalonia.buildservices.0.0.29.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\avalonia.controls.colorpicker\\11.1.0-beta1\\avalonia.controls.colorpicker.11.1.0-beta1.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\avalonia.controls.datagrid\\11.1.0-beta1\\avalonia.controls.datagrid.11.1.0-beta1.nupkg.sha512",
@@ -50,6 +51,7 @@
     "C:\\Users\\zOe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-preview.5.24306.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.5.24306.7.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\zOe\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\reactiveui\\18.3.1\\reactiveui.18.3.1.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\9.0.0-preview.5.24306.7\\runtime.android-arm.runtime.native.system.io.ports.9.0.0-preview.5.24306.7.nupkg.sha512",
     "C:\\Users\\zOe\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\9.0.0-preview.5.24306.7\\runtime.android-arm64.runtime.native.system.io.ports.9.0.0-preview.5.24306.7.nupkg.sha512",

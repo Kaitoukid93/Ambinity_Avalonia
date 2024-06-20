@@ -1,6 +1,6 @@
 using AmbinityCore.Enums;
 
-namespace AmbinityCore.Models;
+namespace AmbinityCore.Models.Device;
 
 public interface IDevice
 {

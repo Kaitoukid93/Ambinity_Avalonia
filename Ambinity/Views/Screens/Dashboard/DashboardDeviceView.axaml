@@ -3,9 +3,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             xmlns:dashboard="clr-namespace:Ambinity.Views.Dashboard"
+             xmlns:dashboard="clr-namespace:Ambinity.Views.Screens.Dashboard"
              x:DataType="dashboard:DashboardDeviceViewModel"
-             x:Class="Ambinity.Views.Dashboard.DashboardDeviceView">
+             x:Class="Ambinity.Views.Screens.Dashboard.DashboardDeviceView">
     <Design.DataContext>
         <dashboard:DashboardDeviceViewModel/>
     </Design.DataContext>

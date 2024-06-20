@@ -163,3 +163,5 @@ D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Avalonia.Xaml.In
 D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Avalonia.Xaml.Interactivity.dll
 D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\AvaloniaEdit.dll
+D:\AmbinityAvalonia\Ambinity_Avalonia\Ambinity\bin\Debug\net8.0\Newtonsoft.Json.dll

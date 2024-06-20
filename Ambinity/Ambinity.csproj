@@ -26,6 +26,7 @@
 		<PackageReference Include="FluentAvaloniaUI" Version="2.1.0-preview5" />
 		<PackageReference Include="Live.Avalonia" Version="1.4.1" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0-preview.5.24306.7" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="Serilog" Version="4.0.0" />
 		<PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
 		<PackageReference Include="Serilog.Sinks.File" Version="5.0.1-dev-00972" />
@@ -37,15 +38,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Views\Dashboard\DashboardView.axaml.cs">
-	    <DependentUpon>DashboardView.axaml</DependentUpon>
-	    <SubType>Code</SubType>
-	  </Compile>
+	  <UpToDateCheckInput Remove="Styling\ControlsGalleryStyles.axaml" />
+	  <UpToDateCheckInput Remove="Styling\Resources.axaml" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <UpToDateCheckInput Remove="Styling\ControlsGalleryStyles.axaml" />
-	  <UpToDateCheckInput Remove="Styling\Resources.axaml" />
+	  <Folder Include="Views\Screens\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <AdditionalFiles Include="Views\Screens\Dashboard\DashboardDeviceView.axaml" />
+	  <AdditionalFiles Include="Views\Screens\Dashboard\DashboardView.axaml" />
+	  <AdditionalFiles Include="Views\Screens\DeviceControl\DeviceControlView.axaml" />
 	</ItemGroup>
 	
 </Project>

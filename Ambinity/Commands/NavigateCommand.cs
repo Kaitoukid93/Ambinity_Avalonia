@@ -1,9 +1,5 @@
 using Ambinity.Services;
-using Ambinity.Stores;
 using Ambinity.ViewModels;
-using Ambinity.Views.Dashboard;
-using CommunityToolkit.Mvvm.DependencyInjection;
-
 namespace Ambinity.Commands;
 
 public class NavigateCommand<TViewModel> : CommandBase

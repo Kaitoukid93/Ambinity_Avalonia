@@ -3,10 +3,10 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:ui="using:FluentAvalonia.UI.Controls"
-             xmlns:dashboard="clr-namespace:Ambinity.Views.Dashboard"
+             xmlns:dashboard="clr-namespace:Ambinity.Views.Screens.Dashboard"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:DataType="dashboard:DashboardViewModel"
-             x:Class="Ambinity.Views.Dashboard.DashboardView">
+             x:Class="Ambinity.Views.Screens.Dashboard.DashboardView">
     <Grid>
         <ItemsControl ItemsSource="{Binding Devices}">
            <ItemsControl.ItemTemplate>

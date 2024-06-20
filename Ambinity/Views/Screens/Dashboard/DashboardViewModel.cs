@@ -1,16 +1,15 @@
-using System;
+
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 using Ambinity.Commands;
 using Ambinity.Services;
 using Ambinity.Stores;
 using Ambinity.ViewModels;
-using Ambinity.Views.DeviceControl;
-using AmbinityCore.Models;
+using Ambinity.Views.Screens.DeviceControl;
+using AmbinityCore.Models.Device;
 using CommunityToolkit.Mvvm.DependencyInjection;
-using CommunityToolkit.Mvvm.Input;
 
-namespace Ambinity.Views.Dashboard;
+namespace Ambinity.Views.Screens.Dashboard;
 
 public class DashboardViewModel : ViewModelBase
 {
